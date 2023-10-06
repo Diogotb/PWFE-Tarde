@@ -1,0 +1,129 @@
+
+    /* CSS Code */
+    /* Heading */
+    @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Raleway:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+   
+    body{
+
+        background-color: rgb(230, 164, 228);
+    }
+    h1 {
+        font-family: 'Handjet', cursive;;
+        color: rgb(188, 49, 144);
+        font-size: 70px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 24
+      }
+      
+      header {
+          background-color: rgb(54, 51, 51);
+      }
+      
+      .nav-item, .seta {
+          text-decoration: none;
+          font-size: 1.7em;
+          font-weight: bold;
+          color: white;
+          font-family: 'Quicksand', sans-serif;
+      }
+      
+      .nav-item:hover, .seta{
+          color: rgb(173, 173, 173);
+          transition: 0.1s;
+          cursor: pointer;
+      }
+      
+      .nav {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+      }
+      
+      .seta {
+          width: 1%;
+          margin-left: 1em;
+      }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+        color:rgb(188, 49, 144);
+        font-family: 'Handjet', cursive;
+font-family: 'Raleway', sans-serif;
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 125px;
+        height: 40px;
+        border: 1px solid dodgerblue;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        background-color: dodgerblue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Handjet', cursive;
+font-family: 'Raleway', sans-serif;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        color: dodgerblue;
+        font-size: 20px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+             
+        color: dodgerblue;
+        font-size: 17px;
+    }
+    #semprex{
+        color: white;
+        font-size: 13px;
+        font-family:  Verdana,
+        Geneva, Tahoma, sans-serif; ;
+    }
+
+    @media screen and (max-width: 279px){
+        #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9{
+            width: 50px;
+            height: 36px;
+            transition: 0.3s;
+        }
+    }
