@@ -1,23 +1,20 @@
 <template>
   <div id="app">
     <header>
-      <h1>Lista de Tarefas</h1>
+      <h1>Meu Catálogo de Filmes</h1>
     </header>
     <main>
-      <ListaDeTarefas />
+      <CatalogoDeFilmes />
     </main>
-    <footer>
-      <p>Desenvolvido com Vue.js</p>
-    </footer>
   </div>
 </template>
 
 <script>
-import ListaDeTarefas from "@/components/ListaDeTarefas.vue";
+import CatalogoDeFilmes from "@/components/CatalogoDeFilmes.vue";
 
 export default {
   components: {
-    ListaDeTarefas,
+    CatalogoDeFilmes,
   },
 };
 </script>
@@ -33,12 +30,6 @@ export default {
 }
 
 header {
-  background-color: #35495e;
-  color: #fff;
-  padding: 10px 0;
-}
-
-footer {
   background-color: #35495e;
   color: #fff;
   padding: 10px 0;

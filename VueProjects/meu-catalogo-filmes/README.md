@@ -1,4 +1,4 @@
-# catalogo-livros-app
+# meu-catalogo-filmes
 
 ## Project setup
 ```
