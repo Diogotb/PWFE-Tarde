@@ -1,22 +1,42 @@
 <template>
   <div id="app">
     <header>
-      <h1>Meu Catálogo de Filmes</h1>
+      <nav>
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> |
+        <router-link to="/filmes">Catalogo Filmes</router-link> |
+        <router-link to="/livros">Catalogo Livros</router-link> |
+      </nav>
     </header>
     <main>
-      <CatalogoDeFilmes />
+      <component :is="currentView" />
     </main>
   </div>
 </template>
 
 <script>
 import CatalogoDeFilmes from "@/components/CatalogoDeFilmes.vue";
+[import { ref, computed } from 'vue'
+import HomeC from "@/components/HomeComponent.vue";
+import AboutC from "@/components/AboutComponent.vue";
+import NotFoundC from "@/components/NotFoundComponent.vue";
 
-export default {
-  components: {
-    CatalogoDeFilmes,
-  },
-};
+
+const routes = {
+  '/': HomeC,
+  '/about': AboutC,
+  '/filmes': CatalogoDeFilmes,
+}
+
+const currentPath = ref(window.location.hash)
+
+window.addEventListener('hashchange', () => {
+  currentPath.value = window.location.hash
+})
+
+const currentView = computed(() => {
+  return routes[currentPath.value.slice(1) || '/'] || NotFoundC
+})]
 </script>
 
 <style>

@@ -1,0 +1,40 @@
+GRUPOS -> 
+TURMA B
+Team 1:
+Nicolas, Vitor Hugo, Ryan
+
+Team 2:
+Luiz, Rhuan, Lorenzo
+
+Team 3:
+Vinicius, Ramon, Rhenan
+
+Team 4:
+Leticia, Rafael, Matheus Marques
+
+Team 5:
+Thomaz, Matheus Sonego, Raissa
+
+Team 6:
+Luana, Yasmin, Matheus Silva
+=============================
+TURMA A
+Team 1:
+Guilherme, Antony, Heloisa, Heitor
+
+Team 2:
+Gabriel Paiva, Samily, Luigi
+
+Team 3:
+Alberto, Ezequiel, Kaynan
+
+Team 4:
+Kauany, Eduardo Jr, Leonardo
+
+Team 5:
+Joao Lima, Henrique, Joao Jesus
+
+Team 6:
+Eduardo Sinico, Igor, Davi
+
+Tecnologias ->
