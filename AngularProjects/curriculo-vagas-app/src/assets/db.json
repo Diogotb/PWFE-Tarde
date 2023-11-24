@@ -17,9 +17,17 @@
     {
       "id": 3,
       "nome": "Desenvolver Fullstack Senior",
-      "foto": "foto3.jpg",
+      "foto": "images.jpg",
       "descricao": "Trabalhar com Desenvolvimento Web",
       "salario": 10000
+    },
+    {
+      "id": "4",
+      "nome": "Suporte Inical TI",
+      "foto": "foto1.jpg",
+      "descricao": "Suporte inical ao usuário de TI",
+      "salario": "2500"
     }
-  ]
+  ],
+  "curriculos": []
 }

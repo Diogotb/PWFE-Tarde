@@ -2,7 +2,7 @@
   "name": "curriculo-vagas-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "npx ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
